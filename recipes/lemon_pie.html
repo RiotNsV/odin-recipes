@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lemon Pie</title>
 </head>
 <body>
-    <h1>Lemon Pie</h1>
+    <div id="h1"><h1>Lemon Pie</h1></div>
 
-    <img src="../img/lemon_pie.jpg" alt="Juicy lemon pie on a plate" height="460" width="860">
+    <span class="food_img"> <img src="../img/lemon_pie.jpg" alt="Juicy lemon pie on a plate"> </span>
 
-    <p>Lemon Meringue Pie using sweetened condensed milk and bottled lemon juice.</p>
+    <div class="description_em">
+        <p><em>Lemon Meringue Pie using sweetened condensed milk and bottled lemon juice.</em></p>
+    </div>
 
-    <p><strong>Ingredients</strong></p>
+    <div class="ingredients"><p><strong>Ingredients</strong></p></div>
 
     <ul>
         <li>1 (9inch) prepared graham cracker crust</li>
@@ -23,16 +26,17 @@
         <li>4 tablespoons white sugar</li>
     </ul>
 
-    <p><strong>Steps</strong></p>
+    <div class="steps"><p><strong>Steps</strong></p></div>
 
     <ol>
-        <li>Blend sweetened condensed milk and egg yolks together. Gradually add lemon juice, stirring until mixture thickens and is well blended. Pour filling into crust.</li>
+        <li>Blend <span class="highlight"> sweetened condensed milk</span>  and egg yolks together. Gradually add lemon juice, stirring until mixture thickens and is well blended. Pour filling into crust.</li>
         <li>In another bowl, beat room temperature egg whites with cream of tartar until foamy. Gradually add sugar, and continue beating until egg whites are stiff. Carefully spread meringue over filling, sealing the edges.</li>
         <li>Bake at 400 degrees F (205 degrees C) until meringue browns, about 6 minutes. Cool. Refrigerate uneaten portions.</li>
     </ol>
 
-    <p><a href="sourdough_bread.html">Previous</a> <a href="tortellini_carbonara.html">Next</a> </p>
-    <p><a href="../index.html">Home</a> </p>
+    <p><button type="button" class="previous_btn"> <a href="sourdough_bread.html">Previous</a></button> <button type="button" class="next_btn"> <a href="tortellini_carbonara.html">Next</a> </button></p>
+    
+    <p><button type="button" class="home_btn"><a href="../index.html">Home</a></button></p>
 
 
 </body>

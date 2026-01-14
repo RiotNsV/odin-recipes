@@ -1,0 +1,114 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  
+}
+
+body {
+    background-color: rgb(164, 165, 131);
+    padding: 11px;
+    font-size: 20px;
+}
+
+
+#h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.tortellini_carbonara,
+.sourdough_bread,
+.lemon_pie {
+    font-size: 25px;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(245, 218, 222);
+    box-shadow:0 8px 10px 0;
+}
+.tortellini_carbonara {    
+    margin-bottom: 40px;
+    border: 4px solid grey;
+}
+
+.sourdough_bread {    
+    margin-bottom: 40px;
+    border: 4px dotted grey;
+}
+
+.lemon_pie {
+    border: 4px double grey;
+}
+
+.tortellini
+{
+    max-width: 500px;
+    height: 380px;
+    display: inline;
+}
+
+ul {
+   
+}
+
+.description_em {
+    margin-bottom: 20px;
+}
+
+.food_img img
+{
+    width: 860px;
+    height: 460px;
+    border-radius: 10px;
+    margin-left: 100px; 
+    margin-right: 50px;
+    float: right;
+    box-shadow:0 10px 13px 0;
+}
+
+.ingredients,
+.steps {
+    font-size: 24px;
+    text-align: center ;
+    background-color: rgb(157, 138, 170);
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-right: 1600px;
+    border-radius: 10px;
+    box-shadow:0 10px 13px 0;
+}
+
+.previous_btn,
+.home_btn,
+.next_btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px; 
+}
+
+.previous_btn {
+    background-color: lightblue;
+}
+
+.next_btn {
+    background-color: lightcoral;
+}
+
+.home_btn {
+    background-color: rgb(216, 194, 71);  
+}
+
+.previous_btn:hover,
+.next_btn:hover,
+.home_btn:hover {
+    box-shadow:0 8px 10px 0;
+}
+
+.highlight {
+    background-color: rgb(221, 250, 181);
+    border-radius: 5px;
+}
